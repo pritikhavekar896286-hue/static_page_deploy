@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Studio</title>
+    <meta
+      name="description"
+      content="Nova Studio is a modern single-page application landing page for creative services."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">Nova Studio</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-button">Book a call</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Design. Build. Grow.</span>
+            <h1>Turn ideas into standout digital experiences.</h1>
+            <p>
+              We help founders and teams build beautiful websites, stronger brands,
+              and customer journeys that convert.
+            </p>
+            <div class="cta-row">
+              <a class="primary-btn" href="#contact">Get started</a>
+              <a class="secondary-btn" href="#features">See features</a>
+            </div>
+            <ul class="mini-stats" aria-label="Key stats">
+              <li><strong>120+</strong><span>Projects</span></li>
+              <li><strong>4.9/5</strong><span>Client rating</span></li>
+              <li><strong>24h</strong><span>Average kickoff</span></li>
+            </ul>
+          </div>
+          <div class="hero-card" aria-label="Preview dashboard card">
+            <div class="card-window">
+              <div class="card-topbar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="chart-card">
+                <div class="chart-header">
+                  <span>Growth</span>
+                  <span class="positive">+42%</span>
+                </div>
+                <div class="bars" aria-hidden="true">
+                  <span style="height: 24%"></span>
+                  <span style="height: 38%"></span>
+                  <span style="height: 52%"></span>
+                  <span style="height: 65%"></span>
+                  <span style="height: 82%"></span>
+                  <span style="height: 100%"></span>
+                </div>
+              </div>
+              <div class="insights">
+                <div>
+                  <small>Leads</small>
+                  <strong>2.4k</strong>
+                </div>
+                <div>
+                  <small>Conversion</small>
+                  <strong>8.7%</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section muted-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Why choose us</span>
+            <h2>Built for momentum.</h2>
+          </div>
+          <div class="feature-grid" id="feature-list"></div>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">How it works</span>
+            <h2>A proven path from strategy to launch.</h2>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-number">01</span>
+              <h3>Discover</h3>
+              <p>We align on goals, audience, and the experience your product should deliver.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">02</span>
+              <h3>Design</h3>
+              <p>We map the story and create a fast, intuitive interface your users will love.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">03</span>
+              <h3>Launch</h3>
+              <p>We build, test, and optimize the experience for performance and growth.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <span class="eyebrow">Let’s build something impactful</span>
+            <h2>Ready to launch your next big idea?</h2>
+          </div>
+          <a class="primary-btn" href="mailto:hello@novastudio.example">hello@novastudio.example</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Nova Studio</p>
+        <p>Made for bold brands.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
